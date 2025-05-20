@@ -23,6 +23,19 @@ I chose the dog facts endpoint (https://dogapi.dog/api/v2/facts) of https://doga
 The solution can be found here - https://github.com/vlasak-viliam/SynotGamesTask/tree/master/Synot/dogFacts 
 
 
-How to run the tests / Dependencies / environment setup:
-
+How to run the tests / Dependencies / environment setup (sorry windows only):
+1. install node.js - https://nodejs.org/dist/v22.15.1/node-v22.15.1-x64.msi
+2. install git
+3. pull the whole repository into some folder on your harddrive (ie c:\playwright) 
+4. install playwright
+   - open windows powershell as admin
+   - navigate to playwright folder - cd c:\playwright\
+   - type the command Set-ExecutionPolicy remotesigned
+   - install playwright using command - npm init playwright@latest
+5. run UI mode of playwright from playwright directory - npx playwright test --ui
+6. navigate to coresponding tests in the tree structure
+7. click on the green "Run" button
+8. results can be seen in the right part of the window, with some additional info (or errors :) ) in the console section
+9. I know this is not 100% accurate, but hope it's enough.
+10. Have a nice day!
  
